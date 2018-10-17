@@ -27,12 +27,11 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="buttons" translatesAutoresizingMaskIntoConstraints="NO" id="u5y-6t-uEO">
                                         <rect key="frame" x="50" y="47" width="54" height="14"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="“Go for it now. The future is promised to no one.”  Wayne Dyer" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uWz-AV-Uh4" customClass="VerticallyCenteredTextView" customModule="carbon_clon" customModuleProvider="target">
-                                        <rect key="frame" x="50" y="88" width="275" height="522"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="“Go for it now. The future is promised to no one.”  Wayne Dyer" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="uWz-AV-Uh4" customClass="VerticallyCenteredTextView" customModule="carbon_clon" customModuleProvider="target">
+                                        <rect key="frame" x="50" y="81" width="275" height="536"/>
                                         <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="textColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                        <color key="textColor" red="0.92941176470588238" green="0.49411764705882355" blue="0.43137254901960786" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                 </subviews>
@@ -43,7 +42,11 @@
                                     <constraint firstItem="u5y-6t-uEO" firstAttribute="leading" secondItem="R9J-yc-vhf" secondAttribute="leading" constant="10" id="Lc9-Ba-YUP"/>
                                     <constraint firstItem="R9J-yc-vhf" firstAttribute="top" secondItem="Mz2-o1-aXK" secondAttribute="top" constant="40" id="Oig-9Z-xsg"/>
                                     <constraint firstAttribute="bottom" secondItem="R9J-yc-vhf" secondAttribute="bottom" constant="40" id="TTJ-by-EYX"/>
+                                    <constraint firstItem="uWz-AV-Uh4" firstAttribute="leading" secondItem="R9J-yc-vhf" secondAttribute="leading" constant="10" id="Vqd-qT-cOX"/>
+                                    <constraint firstItem="R9J-yc-vhf" firstAttribute="trailing" secondItem="uWz-AV-Uh4" secondAttribute="trailing" constant="10" id="age-Yc-amH"/>
+                                    <constraint firstItem="uWz-AV-Uh4" firstAttribute="top" secondItem="u5y-6t-uEO" secondAttribute="bottom" constant="20" id="lHp-PG-elH"/>
                                     <constraint firstItem="R9J-yc-vhf" firstAttribute="leading" secondItem="Mz2-o1-aXK" secondAttribute="leading" constant="40" id="t2E-Nd-C0P"/>
+                                    <constraint firstItem="R9J-yc-vhf" firstAttribute="bottom" secondItem="uWz-AV-Uh4" secondAttribute="bottom" constant="10" id="w3S-NF-UCy"/>
                                 </constraints>
                             </view>
                         </subviews>
